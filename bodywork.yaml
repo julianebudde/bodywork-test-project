@@ -1,7 +1,7 @@
 version: "1.0"
 project:
   name: bodywork-test-project
-  docker_image: bodyworkml/bodywork-core:latest
+  docker_image: bodyworkml/bodywork-core:3.0.0rc2
   DAG: stage_1 >> stage_2 >> stage_3, stage_4 >> stage_5
   usage_stats: false
   secrets_group: testsecrets
