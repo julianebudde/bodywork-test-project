@@ -60,4 +60,4 @@ stages:
     requirements:
        - requests==2.24.0
 logging:
-  log_level: INFO
+  log_level: DEBUG
